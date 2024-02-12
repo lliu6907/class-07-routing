@@ -23,7 +23,11 @@ set_exception_handler(function ($ex) {
 
 const ROUTES = array(
   '/'                             => 'pages/home.php',
-  'citations'                     => 'pages/citations.php'
+  '/citations'                    => 'pages/citations.php',
+  '/cooking-classes'              => 'pages/cooking-classes.php',
+  '/cooking/confirmation'         => 'pages/cooking-confirmation.php',
+  '/flowershop/confirmation'      => 'pages/flowershop-confirmation.php',
+  '/flowershop'                   => 'pages/flowershop.php'
 );
 
 function match_static($uri)

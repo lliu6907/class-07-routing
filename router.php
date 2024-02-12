@@ -22,7 +22,8 @@ set_exception_handler(function ($ex) {
 });
 
 const ROUTES = array(
-  '/'                             => 'pages/home.php'
+  '/'                             => 'pages/home.php',
+  'citations'                     => 'pages/citations.php'
 );
 
 function match_static($uri)

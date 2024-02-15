@@ -25,7 +25,7 @@ $nav_flowershop_class = '';
     <section>
       <div class="course-tile">
         <figure>
-          <img src= "/public/images/bok-choi.jpg" alt="Bok Choi" />
+          <img src= "images/bok-choi.jpg" alt="Bok Choi" />
           <figcaption>Bok Choi</figcaption>
         </figure>
         <div>

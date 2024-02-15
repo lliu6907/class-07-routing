@@ -22,12 +22,12 @@ set_exception_handler(function ($ex) {
 });
 
 const ROUTES = array(
-  '/'                             => 'pages/home.php',
-  '/citations'                    => 'pages/citations.php',
-  '/cooking-classes'              => 'pages/cooking-classes.php',
-  '/cooking/confirmation'         => 'pages/cooking-confirmation.php',
-  '/flowershop/confirmation'      => 'pages/flowershop-confirmation.php',
-  '/flowershop'                   => 'pages/flowershop.php'
+  '/'                             => '/public/pages/home.php',
+  '/citations'                    => '/public/pages/citations.php',
+  '/cooking-classes'              => '/public/pages/cooking-classes.php',
+  '/cooking/confirmation'         => '/public/pages/cooking-confirmation.php',
+  '/flowershop/confirmation'      => '/public/pages/flowershop-confirmation.php',
+  '/flowershop'                   => '/public/pages/flowershop.php'
 );
 
 function match_static($uri)
